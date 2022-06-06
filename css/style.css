@@ -159,6 +159,11 @@ a:focus {
   background-size: 55px;
 }
 
+@media (max-width: 576px) {
+    .logo-text {
+        display: none;
+    }
+}
 
 
 /*end header section*/
@@ -272,6 +277,7 @@ div.about_img-box {
   height:500px;
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .about_detail-box p {
@@ -285,7 +291,7 @@ div.about_img-box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: -160px;
+  /*margin-top: -160px;*/
 }
 
 .practice_box {
